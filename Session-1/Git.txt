@@ -1,0 +1,53 @@
+version control
+-adalah tempat penyimpanan data
+
+contoh
+-github
+
+istilah dalam github
+-repository	: tempat penyimpanan data
+-remote		: repository yang ada di server
+-local		: repository yang ada di pc user
+-commit		: simpan perubahan ke database
+-update		: ambil perubahan dari server
+-push		: ambil perubahan ke server
+
+perintah umum yg digunakan
+* 'git clone'	: copy repository remote ke local
+* 'git status'	: melihat kondisi working folder
+* 'git diff'	: melihat perubahan yang telah dilakukan
+* 'git diff --staged	
+* 'git log	: melihat riwayat perubahan
+* 'git branch -a: melihat daftar nama branch
+* 'git add'	: menyiapkan file untuk di commit
+* 'git commit'	: menyimpan file ke repository
+
+clone file dari server ke pc
+	#1 Pindah path ke folder tempat menyimpan file yang di clone
+	   contoh : cd D:/Git
+	
+	#2 Clone
+	   git clone https://github.com/steffinova/belajar-repository.git
+
+push file ke repository
+	#1 Masuk ke folder modul
+	   Contoh :
+	   cd D:/Git
+
+	#2 Inisiasi git
+	   git init
+
+	#3 Relasikan ke remote repository
+	   git remote add origin https://github.com/steffinova/belajar-repository.git
+
+	#4 Konfigurasi push
+	   git config remote.origin.push refs/heads/master:refs/heads/master
+
+	#4 Add dile
+	   git add -A .
+
+	#5 Commit
+	   git commit -m "pesan commit"
+
+	#6 Push
+	   git push origin master
