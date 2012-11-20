@@ -1,0 +1,12 @@
+package Bernez;
+public class Bilangan{
+	private int desimal;
+	public void setDesimal(int desimal){
+		if(desimal>=0){
+			this.desimal = desimal;
+		}
+		else{
+			this.desimal = -desimal;
+		}
+	}
+}

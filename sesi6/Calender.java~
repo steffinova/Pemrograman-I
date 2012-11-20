@@ -1,0 +1,7 @@
+package a;
+public class Calender{
+	public int HitungHari(public int bulan,public int tahun){
+		System.out.println(bulan*tahun);
+		return 0;
+	}
+}
