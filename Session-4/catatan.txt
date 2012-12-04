@@ -1,0 +1,8 @@
+#tipe data #
+integer,long
+float
+char
+string
+boolean
+
+# Assigment #

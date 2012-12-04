@@ -1,0 +1,58 @@
+#tipe data #
+integer,long
+float
+char
+string
+boolean
+
+# Operator #
+Asiigment : untuk mengisi Data
+Relasi
+Arimtatic
+Logika
+
+# Assigment #
+*Mengisi nilai 10 kedalam x
+
+	int x = 10;
+
+*Menambah dan mengisi nilai 2 kedalam x
+
+	int x += 2;
+	x = x+2;
+
+*Menambah dan mengisi nilai 1 ke dalam x
+
+	x++;
+	x=x+1;
+
+#Relasi #
+
+lebih kecil :'<'
+lebih besar : '>'
+sama dengan : '=='
+kecil atau sama dengan : '<='
+besar atau sama dengan : '>='
+tidak sama dengan : '!='
+
+#Aritmatic
+
+penjumlahan : '+'
+pengurangan : '-'
+perkalian : '*'
+pembagian : '/'
+modulus : %
+
+#Logika
+
+AND(malas) : &&
+AND(rajin) : &
+OR(malas) : ||
+Negasi(rajin) : !
+XOR : ^
+
+#Tabel Logika #
+
+AND : keduanya true maka hasilnya TRUE,lainnya FALSE
+OR : selain satu TRUE maka hasilnya TRUE
+XOR : kalau keduanya berbeda maka TRUE, kalau sama maka FALSE
